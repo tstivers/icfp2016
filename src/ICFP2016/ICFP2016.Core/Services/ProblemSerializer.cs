@@ -8,8 +8,8 @@ namespace ICFP2016.Core.Services
 {
     public class FileContents
     {
-        private string[] _lines;
-        private int _current = 0;
+        private readonly string[] _lines;
+        private int _current;
 
         public FileContents(string[] lines)
         {
